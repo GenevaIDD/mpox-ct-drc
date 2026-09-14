@@ -9,9 +9,7 @@ abstract: >-
   analyses in O'Driscoll et al., 2026.
 type: software
 repository-code: "https://github.com/GenevaIDD/mpox-ct-drc"
-license:
-  - GPL-3.0-only
-  - CC-BY-4.0
+license: GPL-3.0-only
 version: 1.0.0
 date-released: 2026-09-15
 keywords:
