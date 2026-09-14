@@ -1,0 +1,142 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article in preferred-citation."
+title: "mpox-ct-drc: code and data for estimating mpox qPCR false positives in DR Congo"
+abstract: >-
+  Bayesian latent class model to estimate the probability that a positive MPXV
+  qPCR result from a suspected mpox case represents a true infection, using Ct
+  values from four sites in the Democratic Republic of the Congo, with a
+  serological mixture model used for external validation. Reproduces the
+  analyses in O'Driscoll et al., 2026.
+type: software
+repository-code: "https://github.com/GenevaIDD/mpox-ct-drc"
+license:
+  - GPL-3.0-only
+  - CC-BY-4.0
+version: 1.0.0
+date-released: 2026-09-15
+keywords:
+  - mpox
+  - monkeypox virus
+  - qPCR
+  - cycle threshold
+  - latent class model
+  - Stan
+  - Democratic Republic of the Congo
+authors: &authors
+  - family-names: "O'Driscoll"
+    given-names: Megan
+    affiliation: "Institute of Global Health, University of Geneva"
+  - family-names: De Vos
+    given-names: Elise
+    affiliation: "Institute of Tropical Medicine, Antwerp"
+  - family-names: Bugwaja
+    given-names: Levi
+    affiliation: "Université Catholique de Bukavu"
+  - family-names: Brosius
+    given-names: Isabel
+    affiliation: "Institute of Tropical Medicine, Antwerp"
+  - family-names: Nundu
+    given-names: Sabin Sabiti
+    affiliation: "Institute of Tropical Medicine, Antwerp"
+  - family-names: Bugeme
+    given-names: Patrick Musole
+    affiliation: "Institute of Global Health, University of Geneva"
+  - family-names: Bengehya
+    given-names: Justin
+    affiliation: "Division Provinciale de la Santé Publique du Sud-Kivu"
+  - family-names: Mukika
+    given-names: Trust Faraja
+    affiliation: "Hôpital Général de Référence d'Uvira"
+  - family-names: Bugale
+    given-names: Patrick Kazuba
+    affiliation: "Hôpital Général de Référence d'Uvira"
+  - family-names: Wawina-Bokalanga
+    given-names: Tony
+    affiliation: "Institute of Tropical Medicine, Antwerp"
+  - family-names: Bangwen
+    given-names: Eugene
+    affiliation: "Institute of Tropical Medicine, Antwerp"
+  - family-names: Houben
+    given-names: Sarah
+    affiliation: "Institute of Tropical Medicine, Antwerp"
+  - family-names: Mpinda
+    given-names: Fiston Isekusu
+    affiliation: "Institut National de Recherche Biomédicale, Kinshasa"
+  - family-names: Vakaniaki
+    given-names: Emmanuel Hasivirwe
+    affiliation: "Institute of Tropical Medicine, Antwerp"
+  - family-names: Piriou
+    given-names: Erwan
+    affiliation: "Médecins Sans Frontières, Amsterdam"
+  - family-names: Tehoua
+    given-names: Charles
+    affiliation: "The Alliance for International Medical Action, Goma"
+  - family-names: Nepa
+    given-names: Fiston
+    affiliation: "The Alliance for International Medical Action, Goma"
+  - family-names: Munganga
+    given-names: Papy
+    affiliation: "Institut National de Recherche Biomédicale, Kinshasa"
+  - family-names: Tshomba
+    given-names: Jean Claude
+    affiliation: "Institut National de Recherche Biomédicale, Kinshasa"
+  - family-names: Subissi
+    given-names: Lorenzo
+    affiliation: "World Health Organization"
+  - family-names: Odia-Kadima
+    given-names: Grace
+    affiliation: "Institut National de Recherche Biomédicale, Kinshasa"
+  - family-names: Matondo-Kuamfumu
+    given-names: Meris
+    affiliation: "Institut National de Recherche Biomédicale, Kinshasa"
+  - family-names: Nkuba-Ndaye
+    given-names: Antoine
+    affiliation: "Institut National de Recherche Biomédicale, Kinshasa"
+  - family-names: Knee
+    given-names: Jackie
+    affiliation: "London School of Hygiene & Tropical Medicine"
+  - family-names: Jackson
+    given-names: Jules
+    affiliation: "Johns Hopkins University"
+  - family-names: Kalonji
+    given-names: Thierry
+    affiliation: "Program National Lutte Contre MPX-VHF, Kinshasa"
+  - family-names: Lee
+    given-names: Elizabeth C
+    affiliation: "Institute of Global Health, University of Geneva"
+  - family-names: Lefrancq
+    given-names: Noémie
+    affiliation: "ETH Zürich"
+  - family-names: Perez-Saez
+    given-names: Javier
+    affiliation: "Institute of Global Health, University of Geneva"
+  - family-names: Shangula
+    given-names: Salomon Mashupe
+    affiliation: "Hôpital Général de Référence d'Uvira"
+  - family-names: Kuppalli
+    given-names: Krutika
+    affiliation: "University of Texas Southwestern Medical Center"
+  - family-names: Mukadi-Bamuleka
+    given-names: Daniel
+    affiliation: "Cliniques Universitaires de Kinshasa, Université de Kinshasa"
+  - family-names: Malembaka
+    given-names: Espoir Bwenge
+    affiliation: "Institute of Global Health, University of Geneva"
+  - family-names: Mbala
+    given-names: Placide
+    affiliation: "Institut National de Recherche Biomédicale, Kinshasa"
+  - family-names: Liesenborghs
+    given-names: Laurens
+    affiliation: "Institute of Tropical Medicine, Antwerp"
+  - family-names: Azman
+    given-names: Andrew S
+    affiliation: "Institute of Global Health, University of Geneva"
+preferred-citation:
+  type: article
+  title: "The risk of mpox false positive results in high transmission settings: evidence from a multi-site observational study in DR Congo"
+  authors: *authors
+  journal: "The Lancet Infectious Diseases"
+  year: 2026
+  month: 9
+  doi: "10.1016/S1473-3099(26)00411-1"
+  url: "https://doi.org/10.1016/S1473-3099(26)00411-1"

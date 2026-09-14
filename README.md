@@ -1,6 +1,6 @@
 # Mpox Ct value analysis
 
-Bayesian latent class model to estimate the probability that a positive MPXV qPCR result from a suspected mpox case represents a true infection, using Ct values from four sites in the Democratic Republic of Congo. This repository reproduces the main analyses in O'Driscoll et al., 2026 *"The risk of Mpox false positive results in high transmission settings: evidence from a multi-site observational study in DR Congo".*
+Bayesian latent class model to estimate the probability that a positive MPXV qPCR result from a suspected mpox case represents a true infection, using Ct values from four sites in the Democratic Republic of Congo. This repository reproduces the main analyses in O'Driscoll et al., 2026, *"The risk of mpox false positive results in high transmission settings: evidence from a multi-site observational study in DR Congo"*, Lancet Infectious Diseases, [doi:10.1016/S1473-3099(26)00411-1](https://doi.org/10.1016/S1473-3099(26)00411-1).
 
 ## Model
 
