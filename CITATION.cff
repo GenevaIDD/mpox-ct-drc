@@ -8,6 +8,7 @@ abstract: >-
   serological mixture model used for external validation. Reproduces the
   analyses in O'Driscoll et al., 2026.
 type: software
+doi: "10.5281/zenodo.22757921"
 repository-code: "https://github.com/GenevaIDD/mpox-ct-drc"
 license: GPL-3.0-only
 version: 1.0.0

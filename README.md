@@ -1,5 +1,7 @@
 # Mpox Ct value analysis
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22757921.svg)](https://doi.org/10.5281/zenodo.22757921)
+
 Bayesian latent class model to estimate the probability that a positive MPXV qPCR result from a suspected mpox case represents a true infection, using Ct values from four sites in the Democratic Republic of Congo. This repository reproduces the main analyses in O'Driscoll et al., 2026, *"The risk of mpox false positive results in high transmission settings: evidence from a multi-site observational study in DR Congo"*, Lancet Infectious Diseases, [doi:10.1016/S1473-3099(26)00411-1](https://doi.org/10.1016/S1473-3099(26)00411-1).
 
 ## Model
@@ -142,3 +144,5 @@ The `id` column in `data/Serology.csv` and `results/serology/SeroResults.csv` is
 ## License
 
 The code in this repository is licensed under the GNU General Public License v3.0 (see `LICENSE`). The data in `data/` and the model outputs in `results/` are licensed under the Creative Commons Attribution 4.0 International license (see `LICENSE-DATA`); please cite O'Driscoll et al., 2026 when reusing them.
+
+To cite this code and data specifically, use the Zenodo archive, [doi:10.5281/zenodo.22757921](https://doi.org/10.5281/zenodo.22757921), which always resolves to the latest release.
